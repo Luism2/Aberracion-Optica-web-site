@@ -390,3 +390,7 @@ footer .copyright {
     width: 100%;
     max-height: 600px;
 }
+main.texto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

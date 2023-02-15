@@ -26,12 +26,53 @@ video{
     left: 50%;
     transform: translate(-50%, -0%);
 }
-image{
-  top: 0%;
-  left: 0%;
+header img{
+    max-width: 250px;
 }
 .iframe{
     align-content: center;
+}
+/*-------------Menu de navegacion--------*/
+nav{
+    max-width: auto;
+    margin: auto;
+    background-color:#7272729c;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+.Menu-H{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.Menu-H >li >a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.Menu-H >li:hover{
+    background-color:red;
+}
+.Menu-V{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color:rgba(0,0,0,1.0);
+}
+.Menu-H li:hover .Menu-V{
+    display: block;
+}
+.Menu-V li:hover{
+    background-color: rgba(255, 0, 0, 0.733);
+}
+.Menu-V >li >a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
 }
 /*--------pie de pagina ------------*/
 .pie-pagina{
@@ -408,7 +449,7 @@ header .texto h3{
 }
 /*-------------main----------*/
 .main{
-    background:url('../media/black.jpg');
+    background:#000;
     background-repeat:repeat;
 }
 .main .acerca-de span{

@@ -32,6 +32,57 @@ header img{
 .iframe{
     align-content: center;
 }
+/*-------------Cartas para peliculas-------*/
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 0px;
+    font-weight: 100;
+    margin-bottom: 35px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px;
+}
+.container .Card{
+    width: 330px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.671);
+    overflow: hidden;
+    margin: 35px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container .Card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px white;
+}
+.container .Card img{
+    width: 330px;
+    height: 350px;
+}
+.container .Card h4{
+    font-weight: 600;
+    color: #ffffff9d;
+}
+.container .Card p{
+    padding: 0 2rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.container .Card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
 /*-------------Menu de navegacion--------*/
 nav{
     max-width: auto;

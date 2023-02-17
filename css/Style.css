@@ -32,6 +32,36 @@ header img{
 .iframe{
     align-content: center;
 }
+/*--------------Creacion de descripcion de peliculas----------*/
+.main-pelis{
+    background:#000;
+    background-repeat:repeat;
+}
+.main-pelis  img{
+    width: 100%;
+    margin-left: 100px;
+    max-width: 350px;
+    float: left;
+    margin-right: 20px;
+}
+.main-pelis h2{
+    color: white;
+    align-items: center;
+    margin-left: 0px;
+}
+.main-pelis p{
+    color: #c7c7c7;
+    margin-left: 50px;
+}
+.main-pelis h4{
+    color: white;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.main-pelis a{
+    color: rgb(9, 9, 170);
+    background-color: rgba(255, 255, 255, 0.658);
+}
 /*-------------Cartas para peliculas-------*/
 .title {
     text-align: center;

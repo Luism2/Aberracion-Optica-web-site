@@ -51,16 +51,36 @@ header img{
 }
 .main-pelis p{
     color: #c7c7c7;
-    margin-left: 50px;
 }
 .main-pelis h4{
     color: white;
     margin-top: 20px;
-    margin-left: 45px;
+    margin-left: 130px;
 }
 .main-pelis a{
     color: rgb(9, 9, 170);
     background-color: rgba(255, 255, 255, 0.658);
+}
+.main-pelis ol li{
+   color: white;
+   margin-left: 200px;
+   padding: 5px 5px 5px 10px;
+}
+/*---- carrucel de imagenes--------*/
+.slider {
+    width: 750px;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"] + label{
+    display: block;
+    width: 16.6%;
+    height: 60px;
 }
 /*-------------Cartas para peliculas-------*/
 .title {
@@ -120,7 +140,7 @@ nav{
     background-color:#ffffff10;
     font-size: 18px;
     margin-top: 0px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 .Menu-H{
     list-style: none;

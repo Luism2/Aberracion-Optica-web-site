@@ -32,6 +32,32 @@ header img{
 .iframe{
     align-content: center;
 }
+/*----------Arreglos de las targetas-----------*/
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.in-flex div{
+    padding: 20px;
+}
+/*-------- arreglo de imagenes------------*/
+.galeria img {
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    border-radius: 15px;
+}
+.galeria {
+    max-width: 1100px;
+    margin-top: 50px;
+}
 /*--------------Creacion de descripcion de peliculas----------*/
 .main-pelis{
     background:#000;
@@ -40,19 +66,20 @@ header img{
 .main-pelis  img{
     width: 100%;
     margin-left: 100px;
-    max-width: 350px;
+    max-width: 400px;
     float: left;
-    margin-right: 20px;
+    margin-right: 17px;
 }
-.main-pelis h2{
+.main-pelis h4{
     color: white;
     align-items: center;
     margin-left: 0px;
 }
 .main-pelis p{
     color: #c7c7c7;
+    text-size-adjust: 8px;
 }
-.main-pelis h4{
+.main-pelis h6{
     color: white;
     margin-top: 20px;
     margin-left: 130px;
@@ -67,21 +94,7 @@ header img{
    padding: 5px 5px 5px 10px;
 }
 /*---- carrucel de imagenes--------*/
-.slider {
-    width: 750px;
-    height: 360px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-input[type="radio"]{
-    display: none;
-}
-input[type="radio"] + label{
-    display: block;
-    width: 16.6%;
-    height: 60px;
-}
+
 /*-------------Cartas para peliculas-------*/
 .title {
     text-align: center;

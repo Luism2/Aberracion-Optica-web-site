@@ -10,6 +10,7 @@ body{
     margin: 0;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 18px;
+    justify-content: center;
 }
 .cont{
     width: 100%;
@@ -31,6 +32,70 @@ header img{
 }
 .iframe{
     align-content: center;
+}
+/*---------pagina de contactos--------------*/
+#wrapper{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color-2);
+    background: var(--color-1);
+    padding: 5px 0;
+}
+#wrapper form{
+    background: var(--color-3);
+    display:flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+#wrapper h2{
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    font-size: 4em;
+    margin: 0;
+    padding: 25px;
+}
+#wrapper label{
+    display: block;
+    font-size: 24px;
+    padding: 13px 0;
+    color: white;
+    text-shadow: 1px 1px 1px #666;
+}
+#wrapper input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;   
+    background: var(--color-4);
+    font-size: 16px;
+}
+#wrapper button{
+    padding: 15px;
+    background: var(--color-5);
+    color: var(--color-2);
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px
+}
+#wrapper button:hover{
+    background-color: var(--color-6);
+}
+:root{
+    --color-1: #000000;
+    --color-2:#fff;
+    --color-3:#3b3b3b;
+    --color-4:#f5f5f5;
+    --color-5:#ff5361;
+    --color-6:#ff293b;
 }
 /*----------Arreglos de las targetas-----------*/
 .home {

@@ -39,16 +39,31 @@
                     <li><a href="#">Rentar</a></li>
                     </ul>
                 </li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="../../contacto.html">Contacto</a></li>
                 <li><a href="#">Nosotros</a></li>
             </ul>
         </nav>
 
     <section class="main">
-        <div id="video">
-            <video controls>
-                <source src="media/BraumMix.mp4" type="video/mp4">
-            </video>
+        <div id="wrapper">
+            <form action="https://formsubmit.co/luisjuares73@gmail.com" method="POST">
+                <h2>Envianos un Mail</h2>
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="name">
+
+                <label for="email">email</label>
+                <input type="email" name="email">
+
+                <label for="subjet">Asunto</label>
+                <input type="text" name="subjet">
+
+                <label for="comments">Comentario</label>
+                <textarea name="comments" cols="15" rows="5"></textarea>
+                
+                <button type="submit">Enviar</button>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+            </form>
         </div>
     </section>
 

@@ -148,6 +148,7 @@ header img{
 .galeria img {
     box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
     border-radius: 15px;
+    margin: 8px;
 }
 .galeria {
     max-width: 1200px;
@@ -157,6 +158,8 @@ header img{
 .main-pelis{
     background:#000;
     background-repeat:repeat;
+    max-width: 100%;
+    width: auto;
 }
 .main-pelis  img{
     width: 100%;
@@ -165,19 +168,23 @@ header img{
     float: left;
     margin-right: 17px;
 }
-.main-pelis h4{
+.main-pelis h2{
     color: white;
     align-items: center;
     margin-left: 0px;
+    font-size: 33px;
 }
 .main-pelis p{
     color: #c7c7c7;
-    text-size-adjust: 8px;
+    text-size-adjust: 7px;
+    margin-left: 180px;
+    margin-right: 150px;
 }
-.main-pelis h6{
+.main-pelis h3{
     color: white;
-    margin-top: 20px;
-    margin-left: 130px;
+    margin-top: 13px;
+    margin-left: 160px;
+    font-size: 23px;
 }
 .main-pelis a{
     color: rgb(9, 9, 170);
@@ -187,6 +194,13 @@ header img{
    color: white;
    margin-left: 200px;
    padding: 5px 5px 5px 10px;
+}
+.main-pelis h2{
+    color: white;
+}
+.main-h2{
+    color: white;
+    text-align: center;
 }
 /*---- carrucel de imagenes--------*/
 

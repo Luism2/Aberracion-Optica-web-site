@@ -147,8 +147,8 @@ header img{
 /*-------- arreglo de imagenes para peliculas------------*/
 .galeria img {
     box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
-    border-radius: 15px;
-    margin: 8px;
+    border-radius: 5px;
+    margin: 5px;
 }
 .galeria {
     max-width: 1200px;
@@ -189,6 +189,9 @@ header img{
 .main-pelis a{
     color: rgb(9, 9, 170);
     background-color: rgba(255, 255, 255, 0.658);
+}
+ .main-pelis .Nword {
+    margin-left: 150px;
 }
 .main-pelis ol li{
    color: white;
